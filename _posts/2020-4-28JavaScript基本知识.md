@@ -4,7 +4,7 @@ title:      JavaScript基本知识
 subtitle:  
 date:       2020-04-28
 author:     
-header-img: 
+header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
     - JavaScript
