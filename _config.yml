@@ -99,8 +99,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "DF",
-        href: "http://deftdiary.github.io"
+        title: "FreeCodeCamp",
+        href: "https://learn.freecodecamp.one/"
     },{
         title: "Bootstrap",
         href: "https://www.bootcss.com/"
