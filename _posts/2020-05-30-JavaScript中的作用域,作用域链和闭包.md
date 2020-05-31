@@ -56,15 +56,15 @@ console.log(innerVar);// 发出错误:ReferenceError: innerVar is not defined
 
 
 ```javascript
-　function f1(){
-　　　　var n=999;
-　　　　function f2(){
-　　　　　　alert(n);
-　　　　}
-　　　　return f2;
-　　}
-　　var result=f1();
-　　result(); // 999
+   function f1(){
+       var n=999;
+       function f2(){
+          alert(n);
+       }
+       return f2;
+    }
+    var result=f1();
+    result(); // 999
 ```
 
 
