@@ -10,7 +10,7 @@ tags:
     - JavaScript
 ---
 #### 一、作用域  
-JavaScript中变量的作用域有两种: **全局作用域** 和 **函数作用域** (ES6中引入块级作用域这里先不做研究)  
+JavaScript中变量的作用域有两种: **全局作用域** 和 **函数作用域** (ES6中js引入块级作用域这里先不做研究)  
 ###### 全局作用域:  
 代码在程序的任何地方都能被访问，window 对象的内置属性都拥有全局作用域。  
 ```javascript
@@ -53,21 +53,17 @@ console.log(innerVar);// 发出错误:ReferenceError: innerVar is not defined
 "闭包"（closure）定义是非常抽象的。这里引用阮一峰大牛的理解：闭包就是能够读取其他函数内部变量的函数。
 由于在Javascript语言中，只有函数内部的子函数才能读取局部变量，因此可以把闭包简单理解成"定义在一个函数内部的函数"。
 所以，在本质上，闭包就是将函数内部和函数外部连接起来的一座桥梁。
-  
 ```javascript
-
-function f1(){
-        var n=999;
-        function f2(){
-           alert(n);
-        }
-         return f2;
-    }
-    var result=f1();
-    result(); // 999
-    
+　function f1(){
+　　　　var n=999;
+　　　　function f2(){
+　　　　　　alert(n);
+　　　　}
+　　　　return f2;
+　　}
+　　var result=f1();
+　　result(); // 999
 ```
-  
 闭包的用途
 
 闭包可以用在许多地方。它的最大用处有两个，一个是前面提到的可以读取函数内部的变量，另一个就是让这些变量的值始终保持在内存中。  
