@@ -47,7 +47,7 @@ null是空指针但未用,有个占位符,undefined连指针都没有,也没有�
 
     let _typeof = function (data) {
         let value = /\[object (\w+)\]/.exec(
-            Object.prototype.toString.call(data)
+            Object.prototype.toString.call(data) // 核心代码
         );
         return value ? value[1].toLowerCase() : '';
     }
