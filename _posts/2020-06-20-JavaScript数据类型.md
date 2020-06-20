@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      JavaScript 中有几种数据类型
+title:      JavaScript 的数据类型
 subtitle:  
 date:       2020-06-20
 author:     deft
